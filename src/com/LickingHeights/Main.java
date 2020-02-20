@@ -41,8 +41,10 @@ numberOfExoplanets = Keyboard.nextInt();
 System.out.println("How many planets does life evolve?");
 f_l = Keyboard.nextDouble();
 System.out.println("How many planets does life gain intelligence?");
-f_i = Keyboard.nextDouble():
-N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
+f_i = Keyboard.nextDouble();
+System.out.println("How many of those planets develop communication?");
+f_c = Keyboard.nextDouble();
+N = rStar * f_p * numberOfExoplanets *f_l * f_i * f_c * L;
 
 System.out.println("The number of intelligent species that are out there\n" +
         " that can communicate with us is: " + N);
