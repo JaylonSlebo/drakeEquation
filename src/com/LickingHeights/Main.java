@@ -38,6 +38,8 @@ System.out.println("How many stars have planets around them?");
 f_p = Keyboard.nextDouble();
 System.out.println("How many Exoplanets are there?");
 numberOfExoplanets = Keyboard.nextInt();
+System.out.println("How many planets does life evolve?");
+f_l = Keyboard.nextDouble();
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
