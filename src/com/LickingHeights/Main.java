@@ -36,10 +36,12 @@ System.out.println("How many stars on average are formed per year?");
 rStar = Keyboard.nextInt();
 System.out.println("How many stars have planets around them?");
 f_p = Keyboard.nextDouble();
+System.out.println("How many Exoplanets are there?");
+numberOfExoplanets = Keyboard.nextInt();
 
 N = rStar * f_p * numberOfExoplanets * f_l * f_i * f_c * L;
 
-System.out.println("The number of inteligent species that are out there\n" +
+System.out.println("The number of intelligent species that are out there\n" +
         " that can communicate with us is: " + N);
 
     }
